@@ -145,10 +145,10 @@ export default {
         this.sendingConcern();
 
         if (!this.$v.$invalid) {
-          console.log("Message sent successfully.")
+       //   console.log("Message sent successfully.")
         }
         else {
-          console.log("Message sending failed.");
+         // console.log("Message sending failed.");
         }
     },
     clearInput() {

@@ -217,11 +217,11 @@ export default {
         if (!this.$v.$invalid) {
 
           this.createProfessor(this.registerData);
-          console.log("Logged in successfully.")
+       //   console.log("Logged in successfully.")
           this.clearInputFields();
         }
         else {
-          console.log("Failed to log in.");
+         // console.log("Failed to log in.");
         }
     },
     clearInputFields() {

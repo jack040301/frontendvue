@@ -177,7 +177,7 @@ export default {
       this.isShown = null : 
       this.isShown = _shown
 
-      console.log("Card Details Shown (ID): " + this.isShown)
+   //   console.log("Card Details Shown (ID): " + this.isShown)
     }
   }
 };

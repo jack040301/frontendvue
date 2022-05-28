@@ -28,10 +28,10 @@ export default {
             axios.post('/api/SendCode', {email: this.email}).then(response => {
             
 
-                console.log(response)
+              //  console.log(response)
                }).catch((errors)=>{
   
-                   console.log(errors)
+                  // console.log(errors)
    
              });
         }
