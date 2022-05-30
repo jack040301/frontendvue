@@ -37,7 +37,7 @@ Vue.config.productionTip = false;
 
 const token = localStorage.getItem('token');
 
-axios.defaults.baseURL = 'http://20.24.144.51/laravelbackend-main/public/';
+axios.defaults.baseURL = 'https://laravelapi.fiply.tech/';
 axios.defaults.withCredentials = true
 axios.defaults.headers.common["Authorization"] = `Bearer ${token}`;
 
