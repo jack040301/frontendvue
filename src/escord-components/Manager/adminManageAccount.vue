@@ -177,7 +177,7 @@ export default {
           async studentInEnrollment(studpage=1){
            
  
-           await    axios.get('/api/enrolldb/?page='+studpage+'&search='+this.search).then(({data})=>{
+           await    axios.get('/api/enrolldb?page='+studpage+'&search='+this.search).then(({data})=>{
             
                    this.userList = data
               //     this.currentpage = page

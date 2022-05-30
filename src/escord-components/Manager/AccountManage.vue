@@ -262,7 +262,7 @@ this.$store.dispatch('showProf');  */
           async studmis(studpage=1){
            
  
-           await    axios.get('/api/showuseraccount/?page='+studpage+'&search='+this.search).then(({data})=>{
+           await    axios.get('/api/showuseraccount?page='+studpage+'&search='+this.search).then(({data})=>{
             
                    this.student = data
               //     this.currentpage = page
@@ -278,7 +278,7 @@ this.$store.dispatch('showProf');  */
                 async staffmis(staffpage=1){
            
  
-             await    axios.get('/api/showadminaccount/?page='+staffpage+'&search='+this.search).then(({data})=>{
+             await    axios.get('/api/showadminaccount?page='+staffpage+'&search='+this.search).then(({data})=>{
             
                    this.staff = data
               //     this.currentpage = page
@@ -294,7 +294,7 @@ this.$store.dispatch('showProf');  */
               async profmis(staffpage=1){
            
  
-             await    axios.get('/api/showprofaccount/?page='+staffpage+'&search='+this.search).then(({data})=>{
+             await    axios.get('/api/showprofaccount?page='+staffpage+'&search='+this.search).then(({data})=>{
             
                    this.professor = data
               //     this.currentpage = page
